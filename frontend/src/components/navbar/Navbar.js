@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -12,18 +13,21 @@ const Navbar = () => {
     <div className="flex justify-between items-center h-24 w-100 mx-auto px-4 text-[white] bg-[#000300] ">
       <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">
         <Link className=" hover:text-[crimson] text-[#00df9a]" to="/">
-          My Blogs.
+        Ai.Med
         </Link>
       </h1>
       <ul className="hidden md:flex ">
         <Link to="/">
           <li className="p-4 text-[white]  hover:text-[crimson] hover:font-semibold">Home</li>
         </Link>
-        <Link to="/blogs">
-          <li className="p-4  text-[white] hover:text-[crimson]">Blogs</li>
+        {/* <Link to="/projects">
+          <li className="p-4  text-[white] hover:text-[crimson]">projects</li>
+        </Link> */}
+        <Link to="/addData">
+          <li className="p-4  text-[white] hover:text-[crimson]">AddData</li>
         </Link>
-        <Link to="/about">
-          <li className="p-4  text-[white] hover:text-[crimson]">About</li>
+        <Link to="/editData">
+          <li className="p-4  text-[white] hover:text-[crimson]">EditData</li>
         </Link>
         <Link to="/login">
           <li className="p-4 text-[white]  hover:text-[crimson]">LogOut</li>
@@ -42,20 +46,23 @@ const Navbar = () => {
       >
         <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">
           <Link className="text-[#00df9a]" to="/">
-            Sync Sphere
+          Ai.Med
           </Link>
         </h1>
         <Link to="/">
           <li className="p-4 text-[white]  hover:text-[crimson] hover:font-semibold">Home</li>
         </Link>
-        <Link to="/blogs">
-          <li className="p-4  text-[white] hover:text-[crimson]">Blogs</li>
+        {/* <Link to="/projects">
+          <li className="p-4  text-[white] hover:text-[crimson]">projects</li>
+        </Link> */}
+        <Link to="/addData">
+          <li className="p-4  text-[white] hover:text-[crimson]">AddData</li>
         </Link>
-        <Link to="/about">
-          <li className="p-4  text-[white] hover:text-[crimson]">About</li>
+        <Link to="/editData">
+          <li className="p-4  text-[white] hover:text-[crimson]">EditData</li>
         </Link>
         <Link to="/login">
-          <li className="p-4 text-[white]  hover:text-[crimson]">LogOut</li>
+          <li className="p-4 text-[white]  hover:text-[crimson]">Logout</li>
         </Link>
  
       </ul>
