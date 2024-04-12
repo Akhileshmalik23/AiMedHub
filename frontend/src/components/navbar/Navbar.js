@@ -24,7 +24,7 @@ const Navbar = () => {
           <li className="p-4  text-[white] hover:text-[crimson]">projects</li>
         </Link> */}
         <Link to="/addData">
-          <li className="p-4  text-[white] hover:text-[crimson]">AddData</li>
+          <li className="p-4  text-[white] hover:text-[crimson]">Data</li>
         </Link>
         <Link to="/editData">
           <li className="p-4  text-[white] hover:text-[crimson]">EditData</li>
@@ -56,7 +56,7 @@ const Navbar = () => {
           <li className="p-4  text-[white] hover:text-[crimson]">projects</li>
         </Link> */}
         <Link to="/addData">
-          <li className="p-4  text-[white] hover:text-[crimson]">AddData</li>
+          <li className="p-4  text-[white] hover:text-[crimson]">Data</li>
         </Link>
         <Link to="/editData">
           <li className="p-4  text-[white] hover:text-[crimson]">EditData</li>

@@ -24,7 +24,7 @@ const PrivateRoute = ({ isAuthenticated, ...props }) => {
     <>
       <Navbar />
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 6fr' }}>
-        <Sidebar />
+        {/* <Sidebar /> */}
         <Outlet />
       </div>
 
